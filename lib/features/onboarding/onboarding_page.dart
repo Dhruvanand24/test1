@@ -71,7 +71,7 @@ class Welcome extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Chat_page()));
+                          MaterialPageRoute(builder: (context) => ChatPage()));
                     },
                     child: Text(
                       "Get Started",
